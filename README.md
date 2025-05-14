@@ -120,3 +120,69 @@ int main() {
 
     return 0;
 }
+**Output:**
+
+To-Do List Menu:
+1. Add Task
+2. Remove Task
+3. Mark Task as Complete
+4. Show All Tasks
+5. Exit
+Enter your choice: 1
+Enter task description: M.hashir
+
+To-Do List Menu:
+1. Add Task
+2. Remove Task
+3. Mark Task as Complete
+4. Show All Tasks
+5. Exit
+Enter your choice: 1
+Enter task description: Tahla Rauf
+
+To-Do List Menu:
+1. Add Task
+2. Remove Task
+3. Mark Task as Complete
+4. Show All Tasks
+5. Exit
+Enter your choice: 3
+Enter task number to mark as complete: 1
+
+To-Do List Menu:
+1. Add Task
+2. Remove Task
+3. Mark Task as Complete
+4. Show All Tasks
+5. Exit
+Enter your choice: 3
+Enter task number to mark as complete: 1
+
+To-Do List Menu:
+1. Add Task
+2. Remove Task
+3. Mark Task as Complete
+4. Show All Tasks
+5. Exit
+Enter your choice: 4
+1. [Done] M.hashir
+2. [Pending] Tahla Rauf
+
+To-Do List Menu:
+1. Add Task
+2. Remove Task
+3. Mark Task as Complete
+4. Show All Tasks
+5. Exit
+Enter your choice: 3
+Enter task number to mark as complete: 2
+
+To-Do List Menu:
+1. Add Task
+2. Remove Task
+3. Mark Task as Complete
+4. Show All Tasks
+5. Exit
+Enter your choice: 4
+1. [Done] M.hashir
+2. [Done] Tahla Rauf
