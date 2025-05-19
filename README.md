@@ -1,4 +1,3 @@
-# to-do-project
 #include <iostream>
 #include <vector>
 #include <string>
@@ -14,7 +13,7 @@ public:
     Task(const string& desc) : description(desc), isComplete(false) {}
 
     // Get task description
-    string getDescription() const {
+string getDescription() const {
         return description;
     }
 
@@ -30,18 +29,18 @@ public:
 
     // Display task details
     void displayTask() const {
-        cout << (isComplete ? "[Done] " : "[Pending] ") << description << std::endl;
+      cout << (isComplete ? "[Done] " : "[Pending] ") << description <<endl;
     }
 };
 
 // ToDoList class to manage tasks
 class ToDoList {
 private:
-    vector<Task> tasks;
+  vector<Task> tasks;
 
 public:
     // Add task to the list
-    void addTask(const std::string& taskDescription) {
+    void addTask(const string& taskDescription) {
         tasks.push_back(Task(taskDescription));
     }
 
@@ -62,7 +61,7 @@ public:
     // Display all tasks
     void displayAllTasks() const {
         if (tasks.empty()) {
-            std::cout << "Your To-Do list is empty!" << std::endl;
+          cout << "Your To-Do list is empty!" << std::endl;
             return;
         }
         for (int i = 0; i < tasks.size(); ++i) {
@@ -72,11 +71,11 @@ public:
     }
 };
 
-//Main function
+// Main function
 int main() {
     ToDoList myToDoList;
     int choice;
-    std::string taskDescription;
+   string taskDescription;
     int taskIndex;
 
     do {
@@ -92,18 +91,18 @@ int main() {
 
         switch (choice) {
             case 1:
-               cout << "Enter task description: ";
-               getline(std::cin, taskDescription);
+                cout << "Enter task description: ";
+               getline(cin, taskDescription);
                 myToDoList.addTask(taskDescription);
                 break;
             case 2:
-               cout << "Enter task number to remove: ";
-              cin >> taskIndex;
+              cout << "Enter task number to remove: ";
+                cin >> taskIndex;
                 myToDoList.removeTask(taskIndex - 1); // subtract 1 for 0-based index
                 break;
             case 3:
-              cout << "Enter task number to mark as complete: ";
-               cin >> taskIndex;
+                cout << "Enter task number to mark as complete: ";
+                cin >> taskIndex;
                 myToDoList.completeTask(taskIndex - 1); // subtract 1 for 0-based index
                 break;
             case 4:
@@ -120,6 +119,7 @@ int main() {
 
     return 0;
 }
+
 **Output:**
 
 To-Do List Menu:
