@@ -184,5 +184,5 @@ To-Do List Menu:
 4. Show All Tasks
 5. Exit
 Enter your choice: 4
-1. [Done] M.hashir
-2. [Done] Tahla Rauf
+1. [Done] M.hashir.
+2. [Done] Tahla Rauf.
