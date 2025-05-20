@@ -1,13 +1,11 @@
 📝 What Is a To-Do List in C++?
 
-**It is a console-based application written in C++ that allows users to:
-**
+It is a console-based application written in C++ that allows users to:
+
+
 1)Add tasks.
-
 2)View the list of tasks.
-
 3)Mark tasks as complete or delete them.
-
 4)Optionally, save tasks to a file for future use.
 
 #include <iostream>
